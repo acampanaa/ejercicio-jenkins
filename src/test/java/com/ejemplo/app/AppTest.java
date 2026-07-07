@@ -9,7 +9,7 @@ public class AppTest {
 
     @Test
     public void testSumarPositivos() {
-        assertEquals(99, app.sumar(2, 3));  // FALLO INTENCIONAL: 2+3 no es 99
+        assertEquals(5, app.sumar(2, 3));
     }
 
     @Test
